@@ -1,3 +1,100 @@
 body {
   font-family: 'Geomanist';
 }
+
+.main-header {
+  position: relative;
+  padding-top: 41px;
+}
+.main-header:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url(../images/bg.png) no-repeat;
+  background-size: 100% 100%;
+  height: 842px;
+  z-index: -1;
+}
+.main-header h1 {
+  color: #fff;
+  font-size: 33px;
+  line-height: 1.42424;
+  margin: 0;
+  margin-top: 100px;
+}
+.main-header h1 b {
+  font-size: 700;
+  text-transform: uppercase;
+}
+
+a.logo {
+  display: inline-block;
+}
+
+.order-form {
+  max-width: 950px;
+  margin: 0 auto;
+  background: #fff;
+  -webkit-box-shadow: 0 22px 25px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 22px 25px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 45px 65px;
+  margin-top: 100px;
+}
+.order-form .fields-wraper {
+  max-width: 402px;
+}
+.order-form .form-right {
+  float: right;
+}
+.order-form .form-field {
+  padding-bottom: 30px;
+}
+.order-form .form-field label {
+  display: block;
+  color: #1f2a35;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.order-form .form-field input {
+  width: 100%;
+  padding: 0 15px;
+  background: none;
+  border: 1px solid #e6e6e6;
+  width: 100%;
+  height: 50px;
+}
+.order-form .submit {
+  padding-top: 30px;
+}
+.order-form .submit button {
+  background: #fff;
+  border: none;
+  width: 300px;
+  height: 47px;
+  font-size: 23px;
+  color: #1f2a35;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 22px 25px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 22px 25px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+}
+.order-form .submit button:hover, .order-form .submit button:focus {
+  background: #85fca1;
+  background: -webkit-gradient(linear, left top, right top, from(#85fca1), to(#01bfa5));
+  background: linear-gradient(to right, #85fca1 0%, #01bfa5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85fca1', endColorstr='#01bfa5', GradientType=1);
+  color: #fff;
+}
+.order-form .submit small {
+  display: block;
+  text-align: center;
+  color: #1f2a35;
+  font-size: 14px;
+  margin-top: 20px;
+}
