@@ -1,0 +1,140 @@
+@media (max-width: 1199px) {
+  .mack-book {
+    margin-top: -40%;
+  }
+}
+@media (max-width: 991px) {
+  .or {
+    display: none;
+  }
+
+  br {
+    display: none;
+  }
+
+  .exclusive {
+    min-height: 730px;
+  }
+
+  .list-2 {
+    margin-top: 30px;
+  }
+
+  .trading::after {
+    left: -12%;
+  }
+}
+@media (max-width: 767px) {
+  .order-form .fields-wraper {
+    max-width: 100%;
+  }
+
+  .order-form .form-right {
+    float: none;
+  }
+
+  .exclusive {
+    min-height: 570px;
+  }
+
+  .result .section-text p {
+    max-width: 100%;
+  }
+
+  .result .list .title li {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .trading::after,
+  .search-part::after {
+    display: none;
+  }
+
+  .trading .btn {
+    margin-bottom: 40px;
+  }
+
+  .trading {
+    text-align: center;
+  }
+
+  .trading h2 {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 575px) {
+  .result .list ul {
+    width: 545px;
+  }
+
+  .result .list-2 ul {
+    width: 100%;
+  }
+
+  .result .list {
+    overflow-x: scroll;
+  }
+}
+@media (max-width: 480px) {
+  .main-header h1 {
+    font-size: 22px;
+    margin-top: 50px;
+  }
+
+  .order-form {
+    padding: 45px 20px;
+  }
+
+  .order-form .submit button {
+    width: 100%;
+  }
+
+  .exclusive::after {
+    display: none;
+  }
+
+  .exclusive h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .exclusive {
+    min-height: 280px;
+  }
+
+  .mack-book {
+    padding-bottom: 100px;
+  }
+
+  .search-part .search-text {
+    font-size: 20px;
+    background: none;
+  }
+
+  .search-part form .dropdown {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .search-part {
+    padding-bottom: 50px;
+  }
+
+  .result .section-text p {
+    font-size: 20px;
+  }
+
+  .result .section-text p {
+    font-size: 20px;
+  }
+
+  .search-bottom .text-top p {
+    font-size: 23px;
+  }
+
+  .result .section-text h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+}
